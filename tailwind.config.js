@@ -1,19 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
+    "!./node_modules/",
+    "!./dist/",
+    "!./public/",
     "./index.html",
-    "./main.jsx",
-    "./components/*.{js,jsx,html}",
-    "./components/**/*.{js,jsx,html}",
-    "./layouts/*.{js,jsx,html}",
-    "./layouts/**/*.{js,jsx,html}",
-    "./routes/*.{js,jsx,html}",
-    "./routes/**/*.{js,jsx,html}",
-    "./utils/*.{js,jsx,html}",
-    "./utils/**/*.{js,jsx,html}",
+    "./*.{html,jsx,js}",
+    "./**/*.{js,jsx,html}",
+    "./**/**/*.{js,jsx,html}",
   ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+  theme: {},
+  plugins: [
+    require("daisyui")
+  ],
 }
