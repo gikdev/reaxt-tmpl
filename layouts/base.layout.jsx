@@ -2,8 +2,8 @@ import { Outlet } from "react-router"
 
 export default function Base() {
   return (
-    <section className="text-blue-400 bg-red-900">
+    <main className="text-zinc-200 bg-zinc-800 container mx-auto min-h-dvh grid place-items-center">
       <Outlet />
-    </section>
+    </main>
   )
 }

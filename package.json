@@ -7,9 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "format": "biome format --write ./components ./layouts ./assets ./routes ./utils ./index.html ./main.jsx ./*.js ./*.json",
-    "lint": "biome lint --write ./components ./layouts ./assets ./routes ./utils ./index.html ./main.jsx ./*.js ./*.json",
-    "check": "biome check --write ./components ./layouts ./assets ./routes ./utils ./index.html ./main.jsx ./*.js ./*.json"
+    "format": "biome format --write ./components ./layouts ./assets ./routes ./contexts ./utils ./index.html ./main.jsx ./*.js ./*.json",
+    "lint": "biome lint --write ./components ./layouts ./assets ./routes ./contexts ./utils ./index.html ./main.jsx ./*.js ./*.json",
+    "check": "biome check --write ./components ./layouts ./assets ./routes ./contexts ./utils ./index.html ./main.jsx ./*.js ./*.json"
   },
   "dependencies": {
     "@biomejs/biome": "1.8.2",
